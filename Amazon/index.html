@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<div>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+input[type=text]:focus {
+  border: 2px orange
+}
+input[type=number]:focus {
+  border: 2px solid orange;
+}
+input[type=password]:focus{
+	border: 2px solid orange;
+}
+</style>
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+		<img class="logo" src="images/logo.jpg" alt="amazon">
+<div class="box">
+		<h2>Create Account</h2>
+
+		<div class="name">
+
+			    <label id="na">Name</label><br/>
+				<input id="txtname" type="text" size="49"><br/>
+		</div>
+
+		<div class="mobile">
+
+				<label id="mo">Mobile Number</label>
+		</div>
+
+		<div class="txtdrop">
+				<select id="drop-down"><br/>
+					<option data-countryCode="DZ" value="213">Algeria (+213)</option>
+					<option data-countryCode="AD" value="376">Andorra (+376)</option>
+					<option data-countryCode="AO" value="244">Angola (+244)</option>
+					<option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
+					</select>
+		<!--</div>
+		<div class="mobiletxt">-->
+			<input id="mnum" type="number" placeholder="Mobile number">
+		</div>
+
+
+		<div class="email">
+
+				<lable id="em">Email (Optional)</lable>
+		</div>
+
+		<div class="txtemail">
+				<input id="email" type="text" size="49" />
+		</div>
+
+		<div class="pass">
+				<lable>Password</lable><br/>
+		</div>
+		<div class="txtpass">
+				<input id="email" type="password" size="49"/>
+
+		</div>
+		<div class="i1">
+				<img id="i" src="images/i.jpg" alternate="info"/>
+		</div>
+		<div class="para1">
+				<p id="p1" style="font-size:10pt">Passwords must be at least 6 characters.</p>
+		</div>
+
+
+		<div id="p2">
+				<p>We will send you a text to verify your phone.
+						Message and Data rates may apply.</p>
+		</div>
+
+				<input class="submit" type="submit" value="Continue" placeholder="Continue"/>
+
+
+
+
+
+			<p id="p3">Already have an Account?</p>
+			<a id="link" href="sign.html" >Sign in</a>
+</div>
+</body>
+</html>
